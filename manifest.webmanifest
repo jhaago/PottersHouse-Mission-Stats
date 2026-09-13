@@ -1,0 +1,21 @@
+{
+  "id": "/PottersHouse-Mission-Stats/",
+  "name": "Potter's House Mission Stats",
+  "short_name": "Mission Stats",
+  "start_url": "/PottersHouse-Mission-Stats/",
+  "scope": "/PottersHouse-Mission-Stats/",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "display": "standalone",
+  "background_color": "#ecebe7",
+  "theme_color": "#111111",
+  "icons": [
+    {
+      "src": "/PottersHouse-ConnectionCard/assets/app-icon.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
