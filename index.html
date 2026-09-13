@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111111">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Mission Stats">
+  <title>Mission Stats</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/PottersHouse-ConnectionCard/assets/app-icon.png">
+  <link rel="icon" type="image/png" href="/PottersHouse-ConnectionCard/assets/app-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="stats-shell">
+    <section class="brand-card">
+      <img src="/PottersHouse-ConnectionCard/assets/brand-header.jpg" alt="The Potter's House Christian Fellowship Church" class="brand-image">
+      <div class="title-block">
+        <p class="eyebrow">ZIMBABWE MISSION</p>
+        <h1>LIVE STATS</h1>
+        <div class="status-line">
+          <span id="statusDot" class="status-dot"></span>
+          <span id="statusText">Loading totals…</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="stat-grid" aria-live="polite">
+      <article class="stat-card">
+        <span class="stat-label">DECISIONS</span>
+        <strong id="connectionsCount" class="stat-number">—</strong>
+      </article>
+
+      <article class="stat-card healed-card">
+        <span class="stat-label">HEALED</span>
+        <strong id="healedCount" class="stat-number">—</strong>
+      </article>
+    </section>
+
+    <section class="footer-card">
+      <div>
+        <span class="footer-label">LAST UPDATED</span>
+        <strong id="lastUpdated">Waiting for data</strong>
+      </div>
+      <button id="refreshButton" type="button">REFRESH</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
