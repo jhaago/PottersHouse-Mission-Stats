@@ -1,12 +1,13 @@
-const CACHE = "pottershouse-mission-stats-standalone-v1";
+const CACHE = "pottershouse-mission-stats-standalone-v2";
 const ASSETS = [
   "./",
   "./index.html",
   "./styles.css",
   "./app.js",
   "./manifest.webmanifest",
-  "/PottersHouse-ConnectionCard/assets/brand-header.jpg",
-  "/PottersHouse-ConnectionCard/assets/app-icon.png"
+  "./assets/app-icon-192.png",
+  "./assets/app-icon-512.png",
+  "/PottersHouse-ConnectionCard/assets/brand-header.jpg"
 ];
 
 self.addEventListener("install", event => {
